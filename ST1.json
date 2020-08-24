@@ -7,13 +7,13 @@
 		
 		
 		 "storageacc_name": {
-          "type": "string"
+                          "type": "string"
 		  
 		  },
 
 	      "location": {
-            "type": "string",
-            "defaultValue": "[resourceGroup().location]"
+                 "type": "string",
+                 "defaultValue": "[resourceGroup().location]"
 		}
 	
 	},
