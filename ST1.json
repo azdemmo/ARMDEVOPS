@@ -6,7 +6,7 @@
 	{
 			"type": "Microsoft.Storage/storageAccounts",
 			"apiVersion": "2019-06-01",
-			"name":  "straxcz01",
+			"name":  "straxcy01",
 			"location":  "eastus",
 			"sku": {
 				"name": "Standard_LRS",
