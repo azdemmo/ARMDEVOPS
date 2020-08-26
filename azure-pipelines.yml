@@ -20,6 +20,6 @@ steps:
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: 'ARMDEVOPS/ST1.json'
-    overrideParameters: '-projectName aqzsw https://raw.githubusercontent.com/azdemmo/ARMDEVOPS/master/ST1.json'
+    overrideParameters: '-projectName aqzsw -linkedTemplateUri https://raw.githubusercontent.com/azdemmo/ARMDEVOPS/master/ST1.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
